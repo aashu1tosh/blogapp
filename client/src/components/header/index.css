@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    background-color: aqua;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.header h3{
+    flex:  1;
+    margin: 0;
+    font-size: 2rem;
+}
+
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    float: right;
+    background-color: aqua;
+    margin: 0;
+}
+
+.header li {
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
